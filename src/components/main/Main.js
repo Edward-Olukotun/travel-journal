@@ -1,10 +1,10 @@
 import React from 'react'
-import { input } from './../../utils/constansts/Input';
+import { data } from '../../utils/constansts/Input';
 import './Main.css'
 function Main({ props }) {
   return (
     <>
-      {input?.map((props) =>
+      {data?.map((props) =>
       (<div className='content' key={props?.id}>
         <div className='mainpic'> <img src={props.image} alt='' /></div>
         <div className='container'>
